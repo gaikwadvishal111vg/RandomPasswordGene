@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(37, 38, 42 );
+    color: black;
+}
+.container{
+    /* border: 1px solid black; */
+    margin-left: 30%;
+    margin-top: 13%;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 4px 10px 49px 1px rgba(138, 136, 136, 0.75);
+-webkit-box-shadow: 4px 10px 49px 1px rgba(37, 45, 111, 0.75);
+-moz-box-shadow: 4px 10px 49px 1px rgba(123, 47, 108, 0.75);
+border-top-right-radius: 20%;
+border-bottom-left-radius:  20%;
+float: center;
+}
+.display{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+
+
+h1{
+    margin-left: 10%;
+    font-size: 45px;
+    font-weight: 800;
+    color: aliceblue;
+}
+span{
+    color: #019f55;
+    border-bottom: 2px solid #019f55;
+    padding-bottom: 5px;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.container .fa-regular{
+width: 50px;
+font-size: 30px;
+margin-right: 10px;
+}
+.container .fa-solid{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background-color: #019f55;
+    font-size: 25px;
+    font-weight: 500;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 16px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 5%;
+
+}
+#message{
+  margin-left: 13%;
+  /* border: 1px solid red; */
+    bottom: -30px;
+    width: 50%;
+    height: 50px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color:red transparent;
+    box-shadow: 4px 10px 49px 1px rgba(138, 136, 136, 0.75) ;
+    -webkit-box-shadow: 4px 10px 49px 1px rgba(110, 106, 106, 0.75 );
+    -moz-box-shadow: 4px 10px 49px 1px rgba(123, 121, 121, 0.75 );
+    
+    /* display: block; */
+}
